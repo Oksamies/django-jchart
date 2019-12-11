@@ -1,7 +1,7 @@
 import json
+import six
 
 from django.test import TestCase, RequestFactory
-from django.utils import six
 from django.core.exceptions import ImproperlyConfigured
 
 from .views import ChartView
